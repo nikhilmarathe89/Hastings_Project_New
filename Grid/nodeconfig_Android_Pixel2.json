@@ -1,0 +1,27 @@
+{
+"capabilities":
+
+{
+"deviceName":"Pixel 2",
+"version": "9",
+"maxInstances": 1,
+"platform": "android",
+"automationName": "Appium",
+"app":"D:/Eclipse_Programs/cucumber/target/Hasting_QA.apk"
+},
+"configuration": 
+{
+"cleanUpCycle":2000,
+"timeout":30000,
+"proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+"url":"192.168.1.3:4444/wd/hub",
+"host": "192.168.1.3",
+"port": 4733,
+"maxSession": 1,
+"register": true,
+"registerCycle": 5000,
+"hubPort": 4444,
+"hubHost": "192.168.1.3",
+"hubProtocol": "http"
+}
+}
