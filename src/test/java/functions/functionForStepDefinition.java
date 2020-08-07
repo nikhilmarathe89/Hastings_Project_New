@@ -9,6 +9,7 @@ import common_methods.assertion_methods;
 import common_methods.interaction_methods;
 
 import capabilities.Node1_Pixel2;
+import capabilities.Node2_PixelXL;
 import elements.element_details;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
@@ -25,9 +26,9 @@ public class functionForStepDefinition extends assertion_methods
 	
 	public AndroidDriver<AndroidElement> base_capabilities(AndroidDriver<AndroidElement> driver) throws JsonParseException, JsonMappingException, IOException, InterruptedException
 	{	
-		Node1_Pixel2 cap1 = new Node1_Pixel2();
+		Node2_PixelXL cap1 = new Node2_PixelXL();
 		
-		driver = cap1.json_reader_Node1(driver);
+		driver = cap1.json_reader_Node2(driver);
 		
 		return driver;
 	}
